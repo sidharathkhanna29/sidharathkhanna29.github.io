@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="UTF-8" />
+                      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+                  <meta name="description" content="Sidharath Khanna's Personal Blog and Project Website">
+                  <meta name="keywords" content="Sidharath Khanna, Personal Website, Personal Blog, Blogs, Project Website, Portfolio">
+                  <meta name="author" content="Sidharath Khanna">
+                  <link rel="icon" href="images/sk.jpg">
+                      <!-- Open Graphic Tags -->
+                  <meta property="fb:app_id" content="" />
+                  <meta property="og:title" content="">
+                  <meta property="og:url" content="">
+                  <meta property="og:description" content="Sidharath Khanna's Personal Blog and Project Website">
+                  <meta property="og:image" content="">
+                  <link rel="apple-touch-icon" sizes="180x180" href="">
+                  <link rel="icon" type="image/png" href="" sizes="32x32">
+                  <link rel="icon" type="image/png" href="" sizes="16x16">
+                  <link rel="shortcut icon" href="">
+                  <meta name="theme-color" content="#000000">
+                <title>Sidharath Khanna | Portfolio </title>
+              
+                <!-- CSS files -->
+                <link href="css/bootstrap.min.css" rel="stylesheet">
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+                <link href="css/style.css" rel="stylesheet">
+              
+                <!-- Global site tag (gtag.js) - Google Analytics -->
+              <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108089911-1"></script>
+              <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+              
+                gtag('config', 'UA-108089911-1');
+              </script>
+              
+            </head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" style="display: -webkit-inline-box;" href="#">
+        <span class="tag-name">Sidharath &nbsp;khanna</span></a>
+    </div>
+  <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="https://about.me/sidharathkhanna29" target="_blank">About Me</a></li>
+      <li><a href="https://drive.google.com/file/d/19skdtfXgZ-yFPP8ay9Cx-wFvIT92PbYb/view" target="_blank">Resume</a></li>
+    </ul>
+</div>
+  </div>
+</nav>
+<!-- / Navbar -->
+<!-- Landing page container -->
+<div class="container landing-page parallax" style="padding-top:50px" id="home-section">
+  <div></div>
+  <div class="title-name">
+    <img src="images/SEND.jpg" class="title-image" height="150" width="150">
+    <h2>Sidharath khanna</h2>
+  <hr>
+  <h4 class="typing-tags">Programmer & Developer  </h4>
+  <div>
+</div>
+<div class="social-icons">
+<a href="https://www.facebook.com/Sidharath-Khanna" target="_blank"><i class="fa fa-facebook fa-3x"></i></a>
+<a href="https://github.com/sidharathkhanna29" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+<a href="https://in.linkedin.com/in/sidharathkhanna29/" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+<a href="https://twitter.com/khannasidharath" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
+<a href="https://www.quora.com/profile/Sidharath-Khanna" target="_blank"><i class="fa fa-quora fa-3x"></i></a>
+</div>
+</div>
+</div>
+
+  <!-- Javascript files -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  
+  <script>
+  $(function(){
+  $(".dropdown").hover(
+          function() {
+              $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+              $(this).toggleClass('open');
+              $('b', this).toggleClass("caret caret-up");
+          },
+          function() {
+              $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+              $(this).toggleClass('open');
+              $('b', this).toggleClass("caret caret-up");
+          });
+  });
+  </script>
+  <script>
+$(document).ready(function(){
+// Add smooth scrolling to all links
+$("a").on('click', function(event) {
+
+  // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  } // End if
+});
+});
+</script>
+<!-- Parallax Effect -->
+</body>
+</html>
